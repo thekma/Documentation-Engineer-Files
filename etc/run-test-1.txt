@@ -1,0 +1,5 @@
+from shutil import move
+from os import walk
+
+for dirpath, dirnames, filenames in walk('F:\ToBeFiled\Please File'):
+	move("F:\ToBeFiled\Please File\"+"LastName_FirstName_StudentID_PDC.pdf", "F:\ToBeFiled\"+str(filenames))

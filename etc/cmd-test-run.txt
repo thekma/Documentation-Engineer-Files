@@ -1,0 +1,7 @@
+F:
+
+cd ToBeFiled
+
+cd Please File
+
+move [FILE].pdf [location root]
